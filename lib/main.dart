@@ -12,9 +12,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       debugShowCheckedModeBanner: false,
-      initialRoute: 'basic_design',
+      initialRoute: 'scroll_screen',
       routes: {
-        'basic_design': (_) => BasicDesign()
+        'basic_design': (_) => BasicDesign(),
+        'scroll_screen': (_) => ScrollScreen()
       },
     );
   }
